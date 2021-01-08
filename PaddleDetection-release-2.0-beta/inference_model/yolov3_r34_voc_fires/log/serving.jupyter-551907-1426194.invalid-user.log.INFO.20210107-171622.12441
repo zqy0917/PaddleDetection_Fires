@@ -1,0 +1,161 @@
+Log file created at: 2021/01/07 17:16:22
+Running on machine: jupyter-551907-1426194
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0107 17:16:22.993814 12441 resource.cpp:113] Successfully proc initialized mempool wrapper
+I0107 17:16:22.994040 12441 infer.h:803] model_toolkit_conf.engines(0).name: general_infer_0
+I0107 17:16:22.994055 12441 infer.h:79] InferEngineCreationParams: model_path = serving_server, enable_memory_optimization = 1, enable_ir_optimization = 0, static_optimization = 0, force_update_static_cache = 0
+W0107 17:16:23.374666 12441 infer.h:497] Succ load common model[0x2ce7f00], path[serving_server].
+W0107 17:16:23.374719 12441 infer.h:195] Succ load model_data_pathserving_server
+W0107 17:16:23.374728 12441 infer.h:641] Succ proc initialize version engine: 18446744073709551615
+W0107 17:16:23.374734 12441 infer.h:608] Succ proc initialize engine: general_infer_0
+W0107 17:16:23.374740 12441 infer.h:820] Succ proc initialize engine: general_infer_0
+W0107 17:16:23.374823 12441 kv_manager.h:70] general_infer_0: 
+W0107 17:16:23.374830 12441 kv_manager.h:72] Succ proc initialize kvmanager for engine: general_infer_0
+I0107 17:16:23.375020 12441 dag.cpp:158] DAG: workflow1, Op Num: 3
+I0107 17:16:23.375025 12441 dag.cpp:161] OP-1-general_reader_0-GeneralReaderOp depends: 0
+I0107 17:16:23.375028 12441 dag.cpp:161] OP-2-general_infer_0-GeneralInferOp depends: 1
+I0107 17:16:23.375032 12441 dag.cpp:166]  general_reader_0 0
+I0107 17:16:23.375036 12441 dag.cpp:161] OP-3-general_response_0-GeneralResponseOp depends: 1
+I0107 17:16:23.375038 12441 dag.cpp:166]  general_infer_0 0
+I0107 17:16:23.375041 12441 dag.cpp:169] 
+I0107 17:16:23.375046 12441 manager.h:86] Succ init item:workflow1 from conf:workdir/workflow.prototxt, at:0!
+W0107 17:16:23.375092 12441 service.cpp:50] Succ get merger: default for service: GeneralModelService
+I0107 17:16:23.375119 12441 service.cpp:62] service[GeneralModelService], enable_map_request_to_workflow[0].
+I0107 17:16:23.375129 12441 predictor_metric.h:170] try to regist latency metric[workflow_GeneralModelService_workflow1].
+I0107 17:16:23.375174 12441 predictor_metric.h:175] succ to regist latency metric[workflow_GeneralModelService_workflow1].
+I0107 17:16:23.375180 12441 predictor_metric.h:170] try to regist latency metric[stage_GeneralModelService_workflow1_0].
+I0107 17:16:23.375203 12441 predictor_metric.h:175] succ to regist latency metric[stage_GeneralModelService_workflow1_0].
+I0107 17:16:23.375208 12441 predictor_metric.h:170] try to regist latency metric[op_GeneralModelService_workflow1_0_general_reader_0].
+I0107 17:16:23.375232 12441 predictor_metric.h:175] succ to regist latency metric[op_GeneralModelService_workflow1_0_general_reader_0].
+I0107 17:16:23.375238 12441 predictor_metric.h:170] try to regist latency metric[stage_GeneralModelService_workflow1_1].
+I0107 17:16:23.375258 12441 predictor_metric.h:175] succ to regist latency metric[stage_GeneralModelService_workflow1_1].
+I0107 17:16:23.375262 12441 predictor_metric.h:170] try to regist latency metric[op_GeneralModelService_workflow1_1_general_infer_0].
+I0107 17:16:23.375285 12441 predictor_metric.h:175] succ to regist latency metric[op_GeneralModelService_workflow1_1_general_infer_0].
+I0107 17:16:23.375289 12441 predictor_metric.h:170] try to regist latency metric[stage_GeneralModelService_workflow1_2].
+I0107 17:16:23.375310 12441 predictor_metric.h:175] succ to regist latency metric[stage_GeneralModelService_workflow1_2].
+I0107 17:16:23.375314 12441 predictor_metric.h:170] try to regist latency metric[op_GeneralModelService_workflow1_2_general_response_0].
+I0107 17:16:23.375337 12441 predictor_metric.h:175] succ to regist latency metric[op_GeneralModelService_workflow1_2_general_response_0].
+I0107 17:16:23.375342 12441 service.cpp:127] Succ load infer_service: GeneralModelService!
+I0107 17:16:23.375347 12441 manager.h:184] Succ init item:GeneralModelService from conf:workdir/infer_service.prototxt, at:0!
+I0107 17:16:23.375666 12467 server.cpp:147] Entrence reload worker, interval_s: 10
+I0107 17:16:23.375701 12467 server.cpp:150] Begin reload framework...
+W0107 17:16:23.375828 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:16:23.375844 12467 manager.h:131] Finish reload 1 workflow(s)
+W0107 17:16:23.377730 12468 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.377802 12468 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.377851 12468 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.379832 12468 infer.h:534] td_core[0x7ff32c004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.379901 12468 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.379914 12468 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+I0107 17:16:23.379921 12468 resource.cpp:352] 0: Successfully thread initialized dynamic resource 0x7ff32c08b7d0
+W0107 17:16:23.380029 12469 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.380116 12469 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.380157 12469 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.382809 12469 infer.h:534] td_core[0x7ff320004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.382843 12469 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.382853 12469 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+I0107 17:16:23.382863 12469 resource.cpp:352] 0: Successfully thread initialized dynamic resource 0x7ff32008b7d0
+W0107 17:16:23.382937 12470 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.382973 12470 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.383000 12470 memory.cpp:73] Succ thread initialize mempool wrapper
+I0107 17:16:23.385430 12441 server.cpp:1037] Server[baidu::paddle_serving::predictor::general_model::GeneralModelServiceImpl] is serving on port=9393.
+W0107 17:16:23.385509 12470 infer.h:534] td_core[0x7ff318004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.385560 12470 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.385567 12470 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+I0107 17:16:23.385574 12470 resource.cpp:352] 0: Successfully thread initialized dynamic resource 0x7ff3180890f0
+W0107 17:16:23.385732 12471 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.385804 12471 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.385897 12471 memory.cpp:73] Succ thread initialize mempool wrapper
+I0107 17:16:23.386009 12441 server.cpp:1040] Check out http://jupyter-551907-1426194:9393 in web browser.
+W0107 17:16:23.388104 12471 infer.h:534] td_core[0x7ff30c004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.388134 12471 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.388140 12471 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+I0107 17:16:23.388147 12471 resource.cpp:352] 0: Successfully thread initialized dynamic resource 0x7ff30c0890f0
+W0107 17:16:23.388267 12472 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.388315 12472 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.388350 12472 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.390239 12472 infer.h:534] td_core[0x7ff304004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.390264 12472 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.390271 12472 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+I0107 17:16:23.390277 12472 resource.cpp:352] 0: Successfully thread initialized dynamic resource 0x7ff3040890f0
+W0107 17:16:23.390395 12473 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.390458 12473 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.390488 12473 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.392629 12473 infer.h:534] td_core[0x7ff2f8004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.392668 12473 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.392678 12473 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+I0107 17:16:23.392685 12473 resource.cpp:352] 0: Successfully thread initialized dynamic resource 0x7ff2f80890f0
+W0107 17:16:23.392803 12474 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.392874 12474 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.392904 12474 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.394845 12474 infer.h:534] td_core[0x7ff2f0004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.394872 12474 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.394881 12474 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+I0107 17:16:23.394889 12474 resource.cpp:352] 0: Successfully thread initialized dynamic resource 0x7ff2f00890f0
+W0107 17:16:23.394994 12475 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.395056 12475 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.395084 12475 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.397039 12475 infer.h:534] td_core[0x7ff2e4004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.397069 12475 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.397078 12475 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+I0107 17:16:23.397085 12475 resource.cpp:352] 0: Successfully thread initialized dynamic resource 0x7ff2e40890f0
+W0107 17:16:23.397169 12476 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.397238 12476 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.397266 12476 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.399196 12476 infer.h:534] td_core[0x7ff2dc004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.399222 12476 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.399231 12476 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+I0107 17:16:23.399240 12476 resource.cpp:352] 0: Successfully thread initialized dynamic resource 0x7ff2dc0890f0
+W0107 17:16:23.399348 12477 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.399422 12477 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.399452 12477 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.401440 12477 infer.h:534] td_core[0x7ff2d0004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.401469 12477 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.401479 12477 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+I0107 17:16:23.401486 12477 resource.cpp:352] 0: Successfully thread initialized dynamic resource 0x7ff2d00890f0
+W0107 17:16:23.401612 12478 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.401675 12478 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.401705 12478 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.403667 12478 infer.h:534] td_core[0x7ff2c8004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.403695 12478 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.403703 12478 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+I0107 17:16:23.403712 12478 resource.cpp:352] 0: Successfully thread initialized dynamic resource 0x7ff2c80890f0
+I0107 17:16:33.375941 12467 server.cpp:150] Begin reload framework...
+W0107 17:16:33.376152 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:16:33.376176 12467 manager.h:131] Finish reload 1 workflow(s)
+I0107 17:16:43.376273 12467 server.cpp:150] Begin reload framework...
+W0107 17:16:43.376425 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:16:43.376457 12467 manager.h:131] Finish reload 1 workflow(s)
+I0107 17:16:53.376557 12467 server.cpp:150] Begin reload framework...
+W0107 17:16:53.376703 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:16:53.376724 12467 manager.h:131] Finish reload 1 workflow(s)
+I0107 17:17:03.376832 12467 server.cpp:150] Begin reload framework...
+W0107 17:17:03.377058 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:17:03.377107 12467 manager.h:131] Finish reload 1 workflow(s)
+I0107 17:17:13.377216 12467 server.cpp:150] Begin reload framework...
+W0107 17:17:13.377359 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:17:13.377382 12467 manager.h:131] Finish reload 1 workflow(s)
+I0107 17:17:23.377488 12467 server.cpp:150] Begin reload framework...
+W0107 17:17:23.377614 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:17:23.377635 12467 manager.h:131] Finish reload 1 workflow(s)
+I0107 17:17:33.377743 12467 server.cpp:150] Begin reload framework...
+W0107 17:17:33.377930 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:17:33.377951 12467 manager.h:131] Finish reload 1 workflow(s)
+I0107 17:17:43.378053 12467 server.cpp:150] Begin reload framework...
+W0107 17:17:43.378192 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:17:43.378222 12467 manager.h:131] Finish reload 1 workflow(s)
+I0107 17:17:53.378330 12467 server.cpp:150] Begin reload framework...
+W0107 17:17:53.378477 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:17:53.378526 12467 manager.h:131] Finish reload 1 workflow(s)
+I0107 17:18:03.378626 12467 server.cpp:150] Begin reload framework...
+W0107 17:18:03.378789 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:18:03.378850 12467 manager.h:131] Finish reload 1 workflow(s)
+I0107 17:18:13.378948 12467 server.cpp:150] Begin reload framework...
+W0107 17:18:13.379092 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:18:13.379127 12467 manager.h:131] Finish reload 1 workflow(s)
+I0107 17:18:23.379226 12467 server.cpp:150] Begin reload framework...
+W0107 17:18:23.379317 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:18:23.379334 12467 manager.h:131] Finish reload 1 workflow(s)
+I0107 17:18:33.379433 12467 server.cpp:150] Begin reload framework...
+W0107 17:18:33.379621 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+I0107 17:18:33.379664 12467 manager.h:131] Finish reload 1 workflow(s)

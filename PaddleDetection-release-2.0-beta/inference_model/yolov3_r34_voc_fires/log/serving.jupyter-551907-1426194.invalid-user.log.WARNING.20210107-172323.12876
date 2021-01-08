@@ -1,0 +1,260 @@
+Log file created at: 2021/01/07 17:23:23
+Running on machine: jupyter-551907-1426194
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0107 17:23:23.896395 12876 resource.cpp:113] Successfully proc initialized mempool wrapper
+W0107 17:23:24.290006 12876 infer.h:497] Succ load common model[0x27cb270], path[serving_server].
+W0107 17:23:24.290060 12876 infer.h:195] Succ load model_data_pathserving_server
+W0107 17:23:24.290068 12876 infer.h:641] Succ proc initialize version engine: 18446744073709551615
+W0107 17:23:24.290074 12876 infer.h:608] Succ proc initialize engine: general_infer_0
+W0107 17:23:24.290081 12876 infer.h:820] Succ proc initialize engine: general_infer_0
+W0107 17:23:24.290174 12876 kv_manager.h:70] general_infer_0: 
+W0107 17:23:24.290179 12876 kv_manager.h:72] Succ proc initialize kvmanager for engine: general_infer_0
+W0107 17:23:24.290472 12876 service.cpp:50] Succ get merger: default for service: GeneralModelService
+W0107 17:23:24.291364 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:23:24.293300 12902 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.293370 12902 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:23:24.293401 12902 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.295588 12902 infer.h:534] td_core[0x7efc40004a00] clone model from pd_core[0x27cb270] succ, cur_idx[0].
+W0107 17:23:24.295639 12902 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:23:24.295647 12902 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:23:24.295763 12903 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.295833 12903 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:23:24.295861 12903 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.297863 12903 infer.h:534] td_core[0x7efc38004a00] clone model from pd_core[0x27cb270] succ, cur_idx[0].
+W0107 17:23:24.297894 12903 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:23:24.297900 12903 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:23:24.297977 12904 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.298043 12904 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:23:24.298111 12904 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.300642 12904 infer.h:534] td_core[0x7efc2c004a00] clone model from pd_core[0x27cb270] succ, cur_idx[0].
+W0107 17:23:24.300670 12904 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:23:24.300699 12904 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:23:24.300940 12905 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.300989 12905 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:23:24.301051 12905 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.303181 12905 infer.h:534] td_core[0x7efc24004a00] clone model from pd_core[0x27cb270] succ, cur_idx[0].
+W0107 17:23:24.303237 12905 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:23:24.303246 12905 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:23:24.303354 12906 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.303416 12906 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:23:24.303443 12906 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.305433 12906 infer.h:534] td_core[0x7efc18004a00] clone model from pd_core[0x27cb270] succ, cur_idx[0].
+W0107 17:23:24.305461 12906 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:23:24.305469 12906 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:23:24.305583 12907 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.305646 12907 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:23:24.305675 12907 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.307682 12907 infer.h:534] td_core[0x7efc10004a00] clone model from pd_core[0x27cb270] succ, cur_idx[0].
+W0107 17:23:24.307724 12907 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:23:24.307734 12907 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:23:24.307863 12908 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.307971 12908 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:23:24.308007 12908 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.309960 12908 infer.h:534] td_core[0x7efc04004a00] clone model from pd_core[0x27cb270] succ, cur_idx[0].
+W0107 17:23:24.309988 12908 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:23:24.309996 12908 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:23:24.310096 12909 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.310168 12909 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:23:24.310195 12909 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.312500 12909 infer.h:534] td_core[0x7efbfc004a00] clone model from pd_core[0x27cb270] succ, cur_idx[0].
+W0107 17:23:24.312541 12909 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:23:24.312561 12909 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:23:24.313630 12910 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.313691 12910 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:23:24.313737 12910 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.315680 12910 infer.h:534] td_core[0x7efbf0004a00] clone model from pd_core[0x27cb270] succ, cur_idx[0].
+W0107 17:23:24.315721 12910 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:23:24.315729 12910 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:23:24.315846 12911 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.315912 12911 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:23:24.315943 12911 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.317868 12911 infer.h:534] td_core[0x7efbe8004a00] clone model from pd_core[0x27cb270] succ, cur_idx[0].
+W0107 17:23:24.317899 12911 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:23:24.317907 12911 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:23:24.318547 12912 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.318620 12912 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:23:24.318656 12912 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:23:24.320550 12912 infer.h:534] td_core[0x7efbdc004a00] clone model from pd_core[0x27cb270] succ, cur_idx[0].
+W0107 17:23:24.320580 12912 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:23:24.320588 12912 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:23:34.291577 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:23:44.291870 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:23:54.292151 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:24:04.294785 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:24:14.295110 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:24:24.295394 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:24:34.295729 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:24:44.296084 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:24:54.296380 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:25:04.296743 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:25:14.297771 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:25:24.298102 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:25:34.298552 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:25:44.298818 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:25:54.299129 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:26:04.299494 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:26:14.299798 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:26:24.300271 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:26:34.300657 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:26:44.301045 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:26:54.301403 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:27:04.301762 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:27:14.302099 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:27:24.302459 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:27:34.302853 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:27:44.303167 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:27:54.304237 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:28:04.304580 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:28:14.304934 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:28:24.308171 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:28:34.308688 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:28:44.309028 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:28:54.310269 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:29:04.310604 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:29:14.310933 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:29:24.313652 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:29:34.314050 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:29:44.314427 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:29:54.314760 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:30:04.315165 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:30:14.315526 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:30:24.316614 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:30:34.317047 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:30:44.317528 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:30:54.317865 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:31:04.318281 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:31:14.318598 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:31:24.318862 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:31:34.319244 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:31:44.320297 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:31:54.320667 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:32:04.321069 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:32:14.321411 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:32:24.321758 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:32:34.322347 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:32:44.322698 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:32:54.323078 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:33:04.323467 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:33:14.323823 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:33:24.324117 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:33:34.324514 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:33:44.324872 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:33:54.325214 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:34:04.325615 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:34:14.325978 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:34:24.327309 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:34:34.327662 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:34:44.328037 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:34:54.328327 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:35:04.328692 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:35:14.329071 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:35:24.329399 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:35:34.329874 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:35:44.330281 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:35:54.330703 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:36:04.331108 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:36:14.331544 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:36:24.331920 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:36:34.332370 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:36:44.332782 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:36:54.333091 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:37:04.333451 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:37:14.334547 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:37:24.334935 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:37:34.336020 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:37:44.336484 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:37:54.336833 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:38:04.337180 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:38:14.337498 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:38:24.337833 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:38:34.339020 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:38:44.339411 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:38:54.339771 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:39:04.340207 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:39:14.340531 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:39:24.340834 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:39:34.341228 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:39:44.341560 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:39:54.341892 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:40:04.342293 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:40:14.342638 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:40:24.343014 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:40:34.343438 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:40:44.343745 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:40:54.345067 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:41:04.345444 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:41:14.346521 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:41:24.346837 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:41:34.348197 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:41:44.348493 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:41:54.348892 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:42:04.349277 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:42:14.349651 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:42:24.350947 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:42:34.351364 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:42:44.351627 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:42:54.352039 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:43:04.352412 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:43:14.352741 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:43:24.353018 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:43:34.353332 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:43:44.354423 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:43:54.354820 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:44:04.355296 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:44:14.355579 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:44:24.355937 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:44:34.356447 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:44:44.356784 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:44:54.357120 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:45:04.357486 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:45:14.357857 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:45:24.358212 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:45:34.358569 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:45:44.358878 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:45:54.359207 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:46:04.359592 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:46:14.359833 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:46:24.360177 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:46:34.361421 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:46:44.361734 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:46:54.362068 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:47:04.362464 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:47:14.362819 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:47:24.363183 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:47:34.363566 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:47:44.364800 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:47:54.365095 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:48:04.365574 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:48:14.365911 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:48:24.366272 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:48:34.366705 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:48:44.367079 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:48:54.367410 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:49:04.367810 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:49:14.368099 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:49:24.368367 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:49:34.368705 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:49:44.368980 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:49:54.369258 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:50:04.369613 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:50:14.369987 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:50:24.371243 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:50:34.371611 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:50:44.371927 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:50:54.372236 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:51:04.372591 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:51:14.373703 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:51:24.374017 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:51:34.374399 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:51:44.374735 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:51:54.375818 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:52:04.376148 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:52:14.376595 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:52:24.378044 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:52:34.378401 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:52:44.378710 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:52:54.379029 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:53:04.380481 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:53:14.380887 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:53:24.381242 12901 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:53:34.381621 12901 infer.h:694] Succ reload version engine: 18446744073709551615

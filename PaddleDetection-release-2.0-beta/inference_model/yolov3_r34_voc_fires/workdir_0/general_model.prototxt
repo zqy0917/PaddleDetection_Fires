@@ -1,0 +1,23 @@
+feed_var {
+  name: "image"
+  alias_name: "image"
+  is_lod_tensor: false
+  feed_type: 1
+  shape: 3
+  shape: 608
+  shape: 608
+}
+feed_var {
+  name: "im_size"
+  alias_name: "im_size"
+  is_lod_tensor: false
+  feed_type: 2
+  shape: 2
+}
+fetch_var {
+  name: "multiclass_nms_0.tmp_0"
+  alias_name: "multiclass_nms_0.tmp_0"
+  is_lod_tensor: true
+  fetch_type: 1
+  shape: -1
+}

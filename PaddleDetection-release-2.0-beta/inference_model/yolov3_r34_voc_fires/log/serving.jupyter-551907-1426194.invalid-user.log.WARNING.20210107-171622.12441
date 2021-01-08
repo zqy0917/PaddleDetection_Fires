@@ -1,0 +1,92 @@
+Log file created at: 2021/01/07 17:16:22
+Running on machine: jupyter-551907-1426194
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0107 17:16:22.993814 12441 resource.cpp:113] Successfully proc initialized mempool wrapper
+W0107 17:16:23.374666 12441 infer.h:497] Succ load common model[0x2ce7f00], path[serving_server].
+W0107 17:16:23.374719 12441 infer.h:195] Succ load model_data_pathserving_server
+W0107 17:16:23.374728 12441 infer.h:641] Succ proc initialize version engine: 18446744073709551615
+W0107 17:16:23.374734 12441 infer.h:608] Succ proc initialize engine: general_infer_0
+W0107 17:16:23.374740 12441 infer.h:820] Succ proc initialize engine: general_infer_0
+W0107 17:16:23.374823 12441 kv_manager.h:70] general_infer_0: 
+W0107 17:16:23.374830 12441 kv_manager.h:72] Succ proc initialize kvmanager for engine: general_infer_0
+W0107 17:16:23.375092 12441 service.cpp:50] Succ get merger: default for service: GeneralModelService
+W0107 17:16:23.375828 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:16:23.377730 12468 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.377802 12468 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.377851 12468 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.379832 12468 infer.h:534] td_core[0x7ff32c004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.379901 12468 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.379914 12468 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:16:23.380029 12469 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.380116 12469 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.380157 12469 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.382809 12469 infer.h:534] td_core[0x7ff320004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.382843 12469 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.382853 12469 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:16:23.382937 12470 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.382973 12470 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.383000 12470 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.385509 12470 infer.h:534] td_core[0x7ff318004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.385560 12470 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.385567 12470 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:16:23.385732 12471 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.385804 12471 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.385897 12471 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.388104 12471 infer.h:534] td_core[0x7ff30c004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.388134 12471 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.388140 12471 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:16:23.388267 12472 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.388315 12472 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.388350 12472 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.390239 12472 infer.h:534] td_core[0x7ff304004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.390264 12472 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.390271 12472 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:16:23.390395 12473 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.390458 12473 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.390488 12473 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.392629 12473 infer.h:534] td_core[0x7ff2f8004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.392668 12473 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.392678 12473 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:16:23.392803 12474 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.392874 12474 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.392904 12474 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.394845 12474 infer.h:534] td_core[0x7ff2f0004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.394872 12474 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.394881 12474 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:16:23.394994 12475 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.395056 12475 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.395084 12475 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.397039 12475 infer.h:534] td_core[0x7ff2e4004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.397069 12475 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.397078 12475 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:16:23.397169 12476 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.397238 12476 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.397266 12476 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.399196 12476 infer.h:534] td_core[0x7ff2dc004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.399222 12476 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.399231 12476 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:16:23.399348 12477 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.399422 12477 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.399452 12477 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.401440 12477 infer.h:534] td_core[0x7ff2d0004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.401469 12477 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.401479 12477 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:16:23.401612 12478 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.401675 12478 resource.cpp:318] Successfully thread initialized mempool wrapper
+W0107 17:16:23.401705 12478 memory.cpp:73] Succ thread initialize mempool wrapper
+W0107 17:16:23.403667 12478 infer.h:534] td_core[0x7ff2c8004a00] clone model from pd_core[0x2ce7f00] succ, cur_idx[0].
+W0107 17:16:23.403695 12478 infer.h:662] Succ thrd initialize version engine: 18446744073709551615
+W0107 17:16:23.403703 12478 infer.h:831] Succ thrd initialize engine, name: general_infer_0
+W0107 17:16:33.376152 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:16:43.376425 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:16:53.376703 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:17:03.377058 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:17:13.377359 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:17:23.377614 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:17:33.377930 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:17:43.378192 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:17:53.378477 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:18:03.378789 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:18:13.379092 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:18:23.379317 12467 infer.h:694] Succ reload version engine: 18446744073709551615
+W0107 17:18:33.379621 12467 infer.h:694] Succ reload version engine: 18446744073709551615
