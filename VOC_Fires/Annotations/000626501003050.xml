@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	
+  
+	<folder>VOC</folder>
+	
+  
+	<filename>000626501003050.jpg</filename>
+	
+  
+	<object_num>1</object_num>
+	
+  
+	<size>
+		
+    
+		<width>2000</width>
+		
+    
+		<height>1040</height>
+		
+    
+		<depth>3</depth>
+		
+  
+	</size>
+	
+  
+	<object>
+		
+    
+		<name>NonmetallicFire</name>
+		
+    
+		<difficult>0</difficult>
+		
+    
+		<bndbox>
+			
+      
+			<xmin>906</xmin>
+			
+      
+			<ymin>474</ymin>
+			
+      
+			<xmax>955</xmax>
+			
+      
+			<ymax>591
+</ymax>
+			
+    
+		</bndbox>
+		
+  
+	</object>
+	
+
+</annotation>

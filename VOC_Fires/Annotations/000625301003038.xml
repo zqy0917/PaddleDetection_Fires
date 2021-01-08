@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	
+  
+	<folder>VOC</folder>
+	
+  
+	<filename>000625301003038.jpg</filename>
+	
+  
+	<object_num>3</object_num>
+	
+  
+	<size>
+		
+    
+		<width>652</width>
+		
+    
+		<height>1040</height>
+		
+    
+		<depth>3</depth>
+		
+  
+	</size>
+	
+  
+	<object>
+		
+    
+		<name>NonmetallicFire</name>
+		
+    
+		<difficult>0</difficult>
+		
+    
+		<bndbox>
+			
+      
+			<xmin>311</xmin>
+			
+      
+			<ymin>555</ymin>
+			
+      
+			<xmax>359</xmax>
+			
+      
+			<ymax>637
+</ymax>
+			
+    
+		</bndbox>
+		
+  
+	</object>
+	
+  
+	<object>
+		
+    
+		<name>NonmetallicFire</name>
+		
+    
+		<difficult>0</difficult>
+		
+    
+		<bndbox>
+			
+      
+			<xmin>324</xmin>
+			
+      
+			<ymin>488</ymin>
+			
+      
+			<xmax>357</xmax>
+			
+      
+			<ymax>564
+</ymax>
+			
+    
+		</bndbox>
+		
+  
+	</object>
+	
+  
+	<object>
+		
+    
+		<name>NonmetallicFire</name>
+		
+    
+		<difficult>0</difficult>
+		
+    
+		<bndbox>
+			
+      
+			<xmin>337</xmin>
+			
+      
+			<ymin>442</ymin>
+			
+      
+			<xmax>383</xmax>
+			
+      
+			<ymax>525
+</ymax>
+			
+    
+		</bndbox>
+		
+  
+	</object>
+	
+
+</annotation>
